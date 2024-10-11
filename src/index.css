@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --thm-font: "Sora", sans-serif;
+  --thm-font-two: "Inter", sans-serif;
+  --thm-gray: #a1aac9;
+  --thm-white: #ffffff;
+  --thm-black: #000000;
+  --thm-primary: #00cb88;
+  --thm-extra: #00b67a;
+  --thm-gray-bg: #858585;
+  --thm-bdr-color: #3c3c77;
+  --thm-body-bg: #111022;
+  --thm-main-bg: #15152c;
+
+  --fluid-width:90vw;
+  --max-width:1296px;
+  --letterSpacing:1px;
+
+}
+body {
+  background: var(--thm-main-bg);
+  font-weight: 400;
+  font-family: var(--thm-font);
+  line-height: 1.75;
+  color: var(--thm-white);
+}
+h1,
+h1,
+h3,
+h4,
+h5 {
+  margin: 0;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  line-height: 1.5;
+  letter-spacing: var(--letterSpacing);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+font-size: 1.25rem;
+}
+h5 {
+  font-size: 1rem;
+}
+p{
+  margin-bottom: 1.5rem;
 }
