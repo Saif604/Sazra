@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sazra/static/css/main.5284a557.css",
+    "main.js": "/sazra/static/js/main.667440a1.js",
+    "static/media/main.svg": "/sazra/static/media/main.b21c1b6c0b59193e117a10895c9201fb.svg",
+    "index.html": "/sazra/index.html",
+    "main.5284a557.css.map": "/sazra/static/css/main.5284a557.css.map",
+    "main.667440a1.js.map": "/sazra/static/js/main.667440a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5284a557.css",
+    "static/js/main.667440a1.js"
+  ]
+}
