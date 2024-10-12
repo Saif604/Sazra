@@ -39,7 +39,10 @@ const lineage = {
                     },
                     {
                       name: "Hissamuddin",
-                      children: [{ name: "Imtiyaz" }, { name: "Mumtaz",children:[{name:"Moazzam"}]}],
+                      children: [
+                        { name: "Imtiyaz" },
+                        { name: "Mumtaz", children: [{ name: "Moazzam" }] },
+                      ],
                     },
                   ],
                 },
@@ -50,15 +53,17 @@ const lineage = {
                     { name: "Shafique" },
                     { name: "Asfaque" },
                     { name: "Wajihuddin" },
+                    { name: "Nooruddin" },
                   ],
                 },
                 {
                   name: "Islam",
                   children: [
-                    { name: "Shahjahan" },
-                    { name: "Istiyaque"},
-                    { name: "Istekhar" },
-                    { name: "Mustaque" },
+                    { name: "Shahjahan",children:[{name:"Ikramuddin"},{name:"Niyazzudin"},{name:"Rafiuddin"},{name:"Karimuddin"},{name:"Azharruddin"},{name:"Nasiruddin"}] },
+                    { name: "Nissar",children:[{name:"Salman"}]},
+                    { name: "Istiyaque",children:[{name:"Riyaz"},{name:"Ayaz"},{name:"Amjad"},{name:"Sharique"}]},
+                    { name: "Istekhar",children:[{name:"Makshood"},{name:"Fauzan"},{name:"Abdurrahman"},{name:"Azizurahman"}] },
+                    { name: "Mustaque",children:[{name:"ShahAlam"},{name:"Mahboob"}]},
                   ],
                 },
                 {
@@ -124,8 +129,8 @@ const lineage = {
                     { name: "Attaurrahman" },
                     { name: "Mojiburrahman" },
                     { name: "Shamiurrahman" },
-                    {name:"Jamilurrahman"},
-                    {name:"Fazlurrahman"}
+                    { name: "Jamilurrahman" },
+                    { name: "Fazlurrahman" },
                   ],
                 },
                 {
@@ -273,7 +278,7 @@ const lineage = {
               name: "Babullah",
               children: [
                 { name: "Abdullah", children: [{ name: "Shamsuddin" }] },
-                { name: "Tahir", children: [{ name: "aaftab" }] },
+                { name: "Tahir", children: [{ name: "Aaftab" }] },
               ],
             },
           ],
@@ -472,7 +477,10 @@ const lineage = {
             },
             {
               name: "Mohd Vais",
-              children: [{ name: "Kalimullah",children:[{name:"Mohd Umar"}] }, { name: "SAIFULLAH" }],
+              children: [
+                { name: "Kalimullah", children: [{ name: "Mohd Umar" }] },
+                { name: "SAIFULLAH" },
+              ],
             },
           ],
         },
