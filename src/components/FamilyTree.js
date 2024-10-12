@@ -5,7 +5,7 @@ const FamilyTree = ({ data}) => {
   const svgRef = useRef(null);
   useEffect(() => {
     const width=1500;
-    const height=4500;
+    const height=6000;
     // Create the D3 tree layout
     const treeLayout = d3.tree().size([height, width - 250]);
 

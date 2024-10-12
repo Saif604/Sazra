@@ -1,5 +1,5 @@
-const lineage = {
-  name: "KHUDA BAKS",
+const lineage = {name:"SHAHADAT",children:[{
+  name: "KhudaBaqs",
   children: [
     {
       name: "Badlu",
@@ -18,7 +18,7 @@ const lineage = {
                       name: "Gulaberab",
                       children: [
                         {
-                          name: "Abdul Tahir",
+                          name: "AbdulTahir",
                           children: [
                             { name: "Waseem" },
                             { name: "Usman" },
@@ -26,7 +26,7 @@ const lineage = {
                           ],
                         },
                         {
-                          name: "Abdul Wafa",
+                          name: "AbdulWafa",
                           children: [
                             { name: "Irfan" },
                             { name: "Rizwan" },
@@ -63,7 +63,7 @@ const lineage = {
                     { name: "Nissar",children:[{name:"Salman"}]},
                     { name: "Istiyaque",children:[{name:"Riyaz"},{name:"Ayaz"},{name:"Amjad"},{name:"Sharique"}]},
                     { name: "Istekhar",children:[{name:"Makshood"},{name:"Fauzan"},{name:"Abdurrahman"},{name:"Azizurahman"}] },
-                    { name: "Mustaque",children:[{name:"ShahAlam"},{name:"Mahboob"}]},
+                    { name: "Mustaque",children:[{name:"ShahAlam"},{name:"Mahboob"},{name:"NoorAlam"},{name:"Saifullah"},{name:"Karmullah"}]},
                   ],
                 },
                 {
@@ -161,12 +161,12 @@ const lineage = {
             },
           ],
         },
-        { name: "Shah Mohd" },
+        { name: "ShahMohd" },
         {
           name: "Jamiyat",
           children: [
             {
-              name: "Mohd Ali",
+              name: "MohdAli",
               children: [
                 {
                   name: "Mehadi",
@@ -448,10 +448,10 @@ const lineage = {
             {
               name: "Abusai",
               children: [
-                { name: "Abid Ali" },
+                { name: "AbidAli",children:[{name:"Dilshad"},{name:"Zishan"}] },
                 { name: "Mustaque" },
-                { name: "Aurangzeb" },
-                { name: "Fakhar" },
+                { name: "Aurangzeb",children:[{name:"Hanzala"}]},
+                { name: "Fakhar",children:[{name:"Sadan"},{name:"Hamdan"}]},
               ],
             },
             {
@@ -470,7 +470,7 @@ const lineage = {
             {
               name: "Mohd Iliyas",
               children: [
-                { name: "Afzal" },
+                { name: "Afzal",children:[{name:"Fauzan"},{name:"Bilal"},{name:"Hamza"}]},
                 { name: "Athar" },
                 { name: "Khalid" },
               ],
@@ -514,17 +514,17 @@ const lineage = {
                 { name: "Istiyaque" },
                 { name: "Sajjad" },
                 { name: "Munauwar" },
-                { name: "Mahiuddin" },
+                { name: "Mahiuddin",children:[{name:"Arman"}]},
               ],
             },
             {
               name: "Mubarak",
               children: [
                 { name: "Azmat" },
-                { name: "Naseem" },
+                { name: "Naseem",children:[{name:"Tanvir"}]},
                 { name: "Shameem", children: [{ name: "ShahAlam" }] },
                 { name: "Tabrez" },
-                { name: "Riyaz" },
+                { name: "Riyaz",children:[{name:"Sarfaraz"}] },
                 { name: "Aftab" },
               ],
             },
@@ -578,6 +578,6 @@ const lineage = {
       ],
     },
   ],
-};
+},{name:"AllahBaqs"}]};
 
 export default lineage;

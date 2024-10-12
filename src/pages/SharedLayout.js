@@ -3,7 +3,7 @@ import { NavBar } from "../components";
 const SharedLayout = () => {
   return (
     <>
-      <NavBar />
+      <NavBar/>
       <Outlet />
     </>
   );
