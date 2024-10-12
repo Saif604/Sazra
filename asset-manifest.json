@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Sazra/static/css/main.5284a557.css",
-    "main.js": "/Sazra/static/js/main.91bef52b.js",
+    "main.js": "/Sazra/static/js/main.89b5982e.js",
     "static/media/main.svg": "/Sazra/static/media/main.b21c1b6c0b59193e117a10895c9201fb.svg",
     "index.html": "/Sazra/index.html",
     "main.5284a557.css.map": "/Sazra/static/css/main.5284a557.css.map",
-    "main.91bef52b.js.map": "/Sazra/static/js/main.91bef52b.js.map"
+    "main.89b5982e.js.map": "/Sazra/static/js/main.89b5982e.js.map"
   },
   "entrypoints": [
     "static/css/main.5284a557.css",
-    "static/js/main.91bef52b.js"
+    "static/js/main.89b5982e.js"
   ]
 }
