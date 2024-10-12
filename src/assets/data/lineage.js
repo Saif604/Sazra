@@ -286,7 +286,7 @@ const lineage = {
               children: [
                 {
                   name: "Abul Hasan",
-                  children: [{ name: "tarique" }, { name: "Asfaque" }],
+                  children: [{ name: "Tarique" }, { name: "Asfaque" }],
                 },
                 {
                   name: "Barkat",
