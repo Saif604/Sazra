@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Sazra/static/css/main.5284a557.css",
-    "main.js": "/Sazra/static/js/main.9f3bef92.js",
+    "main.css": "/Sazra/static/css/main.36e927a9.css",
+    "main.js": "/Sazra/static/js/main.277eadf9.js",
     "static/media/main.svg": "/Sazra/static/media/main.b21c1b6c0b59193e117a10895c9201fb.svg",
+    "static/media/mainLogo.svg": "/Sazra/static/media/mainLogo.1ae931fe4075625272c22b970673a0f8.svg",
     "index.html": "/Sazra/index.html",
-    "main.5284a557.css.map": "/Sazra/static/css/main.5284a557.css.map",
-    "main.9f3bef92.js.map": "/Sazra/static/js/main.9f3bef92.js.map"
+    "main.36e927a9.css.map": "/Sazra/static/css/main.36e927a9.css.map",
+    "main.277eadf9.js.map": "/Sazra/static/js/main.277eadf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.5284a557.css",
-    "static/js/main.9f3bef92.js"
+    "static/css/main.36e927a9.css",
+    "static/js/main.277eadf9.js"
   ]
 }
