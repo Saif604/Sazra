@@ -9,7 +9,7 @@ const NavBar = () => {
   const handleCollapse = () => setExpand(false);
   return (
     <Wrapper>
-      <Navbar expand="md" className="custom-navbar" variant="dark" expanded={expand}>
+      <Navbar expand="md" className="custom-navbar" variant="dark" expanded={expand} fixed="top">
         <Container>
           {/* Left: SVG Logo */}
           <Navbar.Brand as={NavLink} to="/" >

@@ -63,7 +63,7 @@ const lineage = {name:"SHAHADAT",children:[{
                     { name: "Nissar",children:[{name:"Salman"}]},
                     { name: "Istiyaque",children:[{name:"Riyaz"},{name:"Ayaz"},{name:"Amjad"},{name:"Sharique"}]},
                     { name: "Istekhar",children:[{name:"Makshood"},{name:"Fauzan"},{name:"Abdurrahman"},{name:"Azizurahman"}] },
-                    { name: "Mustaque",children:[{name:"ShahAlam"},{name:"Mahboob"},{name:"NoorAlam"},{name:"Saifullah"},{name:"Karmullah"}]},
+                    { name: "Mustaque",children:[{name:"ShahAlam",children:[{name:"Abdurrahman"}]},{name:"Mahboob",children:[{name:"Abdullah"}]},{name:"NoorAlam"},{name:"Saifullah"},{name:"Karmullah"}]},
                   ],
                 },
                 {

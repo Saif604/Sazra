@@ -11,5 +11,6 @@ const Dashboard = () => {
 export default Dashboard;
 
 const Wrapper = styled.main`
+  margin-top: 6rem;
   overflow-x: scroll;
 `;
