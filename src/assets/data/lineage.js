@@ -1,574 +1,698 @@
-const lineage = {name:"SHAHADAT",children:[{
-  name: "KhudaBaqs",
+const lineage = {
+  name: "SHAHADAT",
   children: [
     {
-      name: "Badlu",
+      name: "KhudaBaqs",
       children: [
         {
-          name: "Mitthu",
+          name: "Badlu",
           children: [
-            { name: "Jamma" },
             {
-              name: "Rajju",
+              name: "Mitthu",
               children: [
+                { name: "Jamma" },
                 {
-                  name: "Shahabuddin",
+                  name: "Rajju",
                   children: [
                     {
-                      name: "Gulaberab",
+                      name: "Shahabuddin",
                       children: [
                         {
-                          name: "AbdulTahir",
+                          name: "Gulaberab",
                           children: [
-                            { name: "Waseem" },
-                            { name: "Usman" },
-                            { name: "Abdurraheem" },
+                            {
+                              name: "AbdulTahir",
+                              children: [
+                                { name: "Waseem" },
+                                { name: "Usman" },
+                                { name: "Abdurraheem" },
+                              ],
+                            },
+                            {
+                              name: "AbdulWafa",
+                              children: [
+                                { name: "Irfan" },
+                                { name: "Rizwan" },
+                                { name: "Gufran" },
+                                { name: "Riyaz" },
+                                { name: "Faiyaz" },
+                              ],
+                            },
                           ],
                         },
                         {
-                          name: "AbdulWafa",
+                          name: "Hissamuddin",
                           children: [
-                            { name: "Irfan" },
-                            { name: "Rizwan" },
-                            { name: "Gufran" },
+                            { name: "Imtiyaz" },
+                            { name: "Mumtaz", children: [{ name: "Moazzam" }] },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      name: "Naimuddin",
+                      children: [
+                        { name: "Mahiuddin" },
+                        { name: "Shafique" },
+                        { name: "Asfaque" },
+                        { name: "Wajihuddin" },
+                        { name: "Nooruddin" },
+                      ],
+                    },
+                    {
+                      name: "Islam",
+                      children: [
+                        {
+                          name: "Shahjahan",
+                          children: [
+                            { name: "Ikramuddin" },
+                            { name: "Niyazzudin" },
+                            { name: "Rafiuddin" },
+                            { name: "Karimuddin" },
+                            { name: "Azharruddin" },
+                            { name: "Nasiruddin" },
+                          ],
+                        },
+                        { name: "Nissar", children: [{ name: "Salman" }] },
+                        {
+                          name: "Istiyaque",
+                          children: [
                             { name: "Riyaz" },
-                            { name: "Faiyaz" },
+                            { name: "Ayaz" },
+                            { name: "Amjad" },
+                            { name: "Sharique" },
+                          ],
+                        },
+                        {
+                          name: "Istekhar",
+                          children: [
+                            { name: "Makshood" },
+                            { name: "Fauzan" },
+                            { name: "Abdurrahman" },
+                            { name: "Azizurahman" },
+                          ],
+                        },
+                        {
+                          name: "Mustaque",
+                          children: [
+                            {
+                              name: "ShahAlam",
+                              children: [{ name: "Abdurrahman" }],
+                            },
+                            {
+                              name: "Mahboob",
+                              children: [{ name: "Abdullah" }],
+                            },
+                            { name: "NoorAlam" },
+                            { name: "Saifullah" },
+                            { name: "Karmullah" },
                           ],
                         },
                       ],
                     },
                     {
-                      name: "Hissamuddin",
+                      name: "Samiullah",
                       children: [
-                        { name: "Imtiyaz" },
-                        { name: "Mumtaz", children: [{ name: "Moazzam" }] },
+                        { name: "Mukhtar" },
+                        { name: "Abbas" },
+                        { name: "Hussain" },
                       ],
                     },
                   ],
                 },
                 {
-                  name: "Naimuddin",
-                  children: [
-                    { name: "Mahiuddin" },
-                    { name: "Shafique" },
-                    { name: "Asfaque" },
-                    { name: "Wajihuddin" },
-                    { name: "Nooruddin" },
-                  ],
-                },
-                {
-                  name: "Islam",
-                  children: [
-                    { name: "Shahjahan",children:[{name:"Ikramuddin"},{name:"Niyazzudin"},{name:"Rafiuddin"},{name:"Karimuddin"},{name:"Azharruddin"},{name:"Nasiruddin"}] },
-                    { name: "Nissar",children:[{name:"Salman"}]},
-                    { name: "Istiyaque",children:[{name:"Riyaz"},{name:"Ayaz"},{name:"Amjad"},{name:"Sharique"}]},
-                    { name: "Istekhar",children:[{name:"Makshood"},{name:"Fauzan"},{name:"Abdurrahman"},{name:"Azizurahman"}] },
-                    { name: "Mustaque",children:[{name:"ShahAlam",children:[{name:"Abdurrahman"}]},{name:"Mahboob",children:[{name:"Abdullah"}]},{name:"NoorAlam"},{name:"Saifullah"},{name:"Karmullah"}]},
-                  ],
-                },
-                {
-                  name: "Samiullah",
-                  children: [
-                    { name: "Mukhtar" },
-                    { name: "Abbas" },
-                    { name: "Hussain" },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Irfan",
-              children: [
-                {
-                  name: "Wahab",
-                  children: [
-                    { name: "Majibullah" },
-                    { name: "Shakeel" },
-                    { name: "Irshad" },
-                    { name: "Jabiullah" },
-                    { name: "Umar" },
-                    { name: "Jahid" },
-                  ],
-                },
-                {
-                  name: "Sayeed",
-                  children: [
-                    { name: "Tauwab" },
-                    { name: "Ajaz" },
-                    { name: "Abdurrab" },
-                    { name: "Shamshad" },
-                    { name: "Shabbir" },
-                  ],
-                },
-                {
-                  name: "Ayyub",
+                  name: "Irfan",
                   children: [
                     {
-                      name: "Shafquat",
-                      children: [{ name: "Arif" }, { name: "Amir" }],
+                      name: "Wahab",
+                      children: [
+                        { name: "Majibullah" },
+                        { name: "Shakeel" },
+                        { name: "Irshad" },
+                        { name: "Jabiullah" },
+                        { name: "Umar" },
+                        { name: "Jahid" },
+                      ],
+                    },
+                    {
+                      name: "Sayeed",
+                      children: [
+                        { name: "Tauwab" },
+                        { name: "Ajaz" },
+                        { name: "Abdurrab" },
+                        { name: "Shamshad" },
+                        { name: "Shabbir" },
+                      ],
+                    },
+                    {
+                      name: "Ayyub",
+                      children: [
+                        {
+                          name: "Shafquat",
+                          children: [{ name: "Arif" }, { name: "Amir" }],
+                        },
+                      ],
+                    },
+                    { name: "Altaf" },
+                  ],
+                },
+                {
+                  name: "Ahsan",
+                  children: [
+                    {
+                      name: "Younus",
+                      children: [
+                        { name: "Aqbal" },
+                        { name: "Nazeer" },
+                        { name: "Shani" },
+                      ],
+                    },
+                    {
+                      name: "Jalaluddin",
+                      children: [
+                        { name: "Attaurrahman",
+                          children:[
+                            {name:"Motiurrahman"},
+                            {name:"Afzal"},
+                            {name:"Arif"}
+                          ]
+                         },
+                        { name: "Mojiburrahman",
+                          children:[
+                            {
+                              name:"Tafazzul"
+                            },
+                            {
+                              name:"Tanveer"
+                            },
+                            {
+                              name:"Tauseef"
+                            }
+                          ]
+                         },
+                        { name: "Shamiurrahman",
+                          children:[
+                            {
+                              name:"Ashraf"
+                            },
+                            {
+                              name:"Ajmal"
+                            },
+                            {
+                              name:"Masood"
+                            },
+                            {
+                              name:"Farhan"
+                            }
+                          ]
+                         },
+                        { name: "Jamilurrahman",
+                          children:[
+                            {
+                              name:"Saqib",
+                            },
+                            {
+                              name:"Aazim"
+                            },
+                            {
+                              name:"Kashif"
+                            },
+                            {
+                              name:"Atif"
+                            }
+                          ]
+                         },
+                        { name: "Fazlurrahman",
+                          children:[
+                            {
+                              name:"Suhaib"
+                            }
+                          ]
+                         },
+                      ],
+                    },
+                    {
+                      name: "AbdusSalam",
+                      children: [
+                        { name: "Daud" },
+                        { name: "Matiullah" },
+                        { name: "Jikrullah" },
+                      ],
+                    },
+                    {
+                      name: "Kalam",
+                      children: [
+                        { name: "Malik" },
+                        { name: "Waheed" },
+                        { name: "Rasheed" },
+                      ],
+                    },
+                    {
+                      name: "Hasan",
+                      children: [
+                        { name: "Mohammad" },
+                        { name: "Anwar" },
+                        { name: "Ahmad" },
+                      ],
                     },
                   ],
                 },
-                { name: "Altaf" },
+              ],
+            },
+            { name: "ShahMohd" },
+            {
+              name: "Jamiyat",
+              children: [
+                {
+                  name: "MohdAli",
+                  children: [
+                    {
+                      name: "Mehadi",
+                      children: [
+                        { name: "Abulas" },
+                        { name: "Abutalib" },
+                        { name: "Jaffar" },
+                        { name: "Shafique" },
+                      ],
+                    },
+                    { name: "Shubhan" },
+                    {
+                      name: "Shaukat",
+                      children: [{ name: "Mahibullah" }, { name: "Alam" }],
+                    },
+                  ],
+                },
               ],
             },
             {
-              name: "Ahsan",
+              name: "Taluq",
               children: [
                 {
-                  name: "Younus",
+                  name: "Dulai",
                   children: [
-                    { name: "Aqbal" },
-                    { name: "Nazeer" },
-                    { name: "Shani" },
+                    {
+                      name: "Haleem",
+                      children: [
+                        { name: "Hakeem", children: [{ name: "Sameer" }] },
+                        {
+                          name: "Raheem",
+                          children: [{ name: "Naim" }, { name: "Nadeem" }],
+                        },
+                        { name: "Kareem" },
+                        { name: "Kayyum" },
+                        {
+                          name: "Kaleem",
+                          children: [{ name: "Faheem" }, { name: "Naseem" }],
+                        },
+                        {
+                          name: "Waseem",
+                          children: [{ name: "Saleem" }, { name: "Hashim" }],
+                        },
+                      ],
+                    },
+                    { name: "Saleem" },
+                  ],
+                },
+                { name: "ShamsulHaq", children: [{ name: "Nizamul" }] },
+              ],
+            },
+          ],
+        },
+        {
+          name: "Meddhi",
+          children: [
+            { name: "Shikandar", children: [{ name: "Jahoor" }] },
+            {
+              name: "Shakoor",
+              children: [
+                {
+                  name: "Rajjak",
+                  children: [
+                    {
+                      name: "Idrees",
+                      children: [
+                        {
+                          name: "Abdul Mabood",
+                          children: [
+                            { name: "Jaid" },
+                            { name: "Parvez" },
+                            { name: "Naved" },
+                            { name: "Fahad" },
+                          ],
+                        },
+                        {
+                          name: "Abdul Azeem",
+                          children: [{ name: "Arif" }, { name: "Aquib" }],
+                        },
+                        { name: "Mustaque" },
+                      ],
+                    },
+                    {
+                      name: "Muneer",
+                      children: [{ name: "Nishar" }, { name: "Anas" }],
+                    },
+                    {
+                      name: "Shohrab",
+                      children: [
+                        {
+                          name: "Shakeel",
+                          children: [{ name: "Aasim" }, { name: "Shahid" }],
+                        },
+                        {
+                          name: "Shabbir",
+                          children: [
+                            { name: "Aasif" },
+                            { name: "Shaquib" },
+                            { name: "Sufiyan" },
+                          ],
+                        },
+                        {
+                          name: "Shafique",
+                          children: [{ name: "Shahil" }, { name: "Shoaib" }],
+                        },
+                      ],
+                    },
                   ],
                 },
                 {
-                  name: "Jalaluddin",
+                  name: "Khalil",
+                  children: [{ name: "Haroon" }, { name: "Mannan" }],
+                },
+                {
+                  name: "Babullah",
                   children: [
-                    { name: "Attaurrahman" },
-                    { name: "Mojiburrahman" },
-                    { name: "Shamiurrahman" },
-                    { name: "Jamilurrahman" },
-                    { name: "Fazlurrahman" },
+                    { name: "Abdullah", children: [{ name: "Shamsuddin" }] },
+                    { name: "Tahir", children: [{ name: "Aaftab" }] },
+                  ],
+                },
+              ],
+            },
+            {
+              name: "Habib",
+              children: [
+                {
+                  name: "Abdul Gaffar",
+                  children: [
+                    {
+                      name: "Abul Hasan",
+                      children: [{ name: "Tarique" }, { name: "Asfaque" }],
+                    },
+                    {
+                      name: "Barkat",
+                      children: [{ name: "Qutubullah" }, { name: "Wasiullah" }],
+                    },
                   ],
                 },
                 {
-                  name: "AbdusSalam",
+                  name: "Farooque",
                   children: [
-                    { name: "Daud" },
-                    { name: "Matiullah" },
-                    { name: "Jikrullah" },
+                    {
+                      name: "Hamiuddin",
+                      children: [
+                        { name: "Qutubuddin" },
+                        { name: "Karimuddin" },
+                      ],
+                    },
+                    {
+                      name: "Bauddin",
+                      children: [
+                        { name: "Azizuddin" },
+                        { name: "Sirajuddin" },
+                        { name: "Riyajuddin" },
+                        { name: "Allauddin" },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              name: "Raheem Baks",
+              children: [
+                {
+                  name: "Mohd Khan",
+                  children: [
+                    { name: "Aziz" },
+                    {
+                      name: "Hasnain",
+                      children: [
+                        { name: "Faisal" },
+                        { name: "Abujar" },
+                        { name: "Sageer" },
+                        { name: "Zakir" },
+                        { name: "Ahanullah" },
+                      ],
+                    },
+                    {
+                      name: "Jaleel",
+                      children: [
+                        { name: "Arif" },
+                        { name: "Aftab" },
+                        { name: "Khursheed" },
+                        { name: "Qamar" },
+                      ],
+                    },
+                    {
+                      name: "Abdurraheem",
+                      children: [{ name: "Jamal" }, { name: "Fahad" }],
+                    },
                   ],
                 },
                 {
-                  name: "Kalam",
+                  name: "Safiullah",
                   children: [
-                    { name: "Malik" },
-                    { name: "Waheed" },
-                    { name: "Rasheed" },
-                  ],
-                },
-                {
-                  name: "Hasan",
-                  children: [
-                    { name: "Mohammad" },
+                    {
+                      name: "Lateef",
+                      children: [
+                        { name: "Azhar" },
+                        { name: "Athar" },
+                        { name: "Zaki" },
+                      ],
+                    },
+                    { name: "Khalil" },
                     { name: "Anwar" },
-                    { name: "Ahmad" },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-        { name: "ShahMohd" },
-        {
-          name: "Jamiyat",
-          children: [
-            {
-              name: "MohdAli",
-              children: [
-                {
-                  name: "Mehadi",
-                  children: [
-                    { name: "Abulas" },
-                    { name: "Abutalib" },
-                    { name: "Jaffar" },
-                    { name: "Shafique" },
-                  ],
-                },
-                { name: "Shubhan" },
-                {
-                  name: "Shaukat",
-                  children: [{ name: "Mahibullah" }, { name: "Alam" }],
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Taluq",
-          children: [
-            {
-              name: "Dulai",
-              children: [
-                {
-                  name: "Haleem",
-                  children: [
-                    { name: "Hakeem", children: [{ name: "Sameer" }] },
-                    {
-                      name: "Raheem",
-                      children: [{ name: "Naim" }, { name: "Nadeem" }],
-                    },
-                    { name: "Kareem" },
-                    { name: "Kayyum" },
-                    {
-                      name: "Kaleem",
-                      children: [{ name: "Faheem" }, { name: "Naseem" }],
-                    },
-                    {
-                      name: "Waseem",
-                      children: [{ name: "Saleem" }, { name: "Hashim" }],
-                    },
-                  ],
-                },
-                { name: "Saleem" },
-              ],
-            },
-            { name: "ShamsulHaq", children: [{ name: "Nizamul" }] },
-          ],
-        },
-      ],
-    },
-    {
-      name: "Meddhi",
-      children: [
-        { name: "Shikandar", children: [{ name: "Jahoor" }] },
-        {
-          name: "Shakoor",
-          children: [
-            {
-              name: "Rajjak",
-              children: [
-                {
-                  name: "Idrees",
-                  children: [
-                    {
-                      name: "Abdul Mabood",
-                      children: [
-                        { name: "Jaid" },
-                        { name: "Parvez" },
-                        { name: "Naved" },
-                        { name: "Fahad" },
-                      ],
-                    },
-                    {
-                      name: "Abdul Azeem",
-                      children: [{ name: "Arif" }, { name: "Aquib" }],
-                    },
+                    { name: "Oushaf" },
                     { name: "Mustaque" },
                   ],
                 },
+              ],
+            },
+            {
+              name: "Abdurrahman",
+              children: [
                 {
-                  name: "Muneer",
-                  children: [{ name: "Nishar" }, { name: "Anas" }],
+                  name: "Haneef",
+                  children: [
+                    { name: "Obaidullah", children: [{ name: "Ravi" }] },
+                  ],
                 },
                 {
-                  name: "Shohrab",
+                  name: "Ibrahim",
                   children: [
-                    { name: "Shakeel" },
+                    { name: "Misbahuddin" },
+                    { name: "Salahuddin" },
+                    { name: "Hisamuddin" },
+                  ],
+                },
+                {
+                  name: "Ishaque",
+                  children: [
+                    { name: "Rafiuddin" },
+                    { name: "Fakhruddin" },
+                    { name: "Kamruddin" },
+                    { name: "Ziauddin" },
+                    { name: "Ajaz" },
+                  ],
+                },
+                { name: "Yahya", children: [{ name: "Mahiuddin" }] },
+              ],
+            },
+          ],
+        },
+        {
+          name: "Dahu",
+          children: [
+            {
+              name: "Dost Mohd",
+              children: [
+                {
+                  name: "Abuharera",
+                  children: [
                     {
-                      name: "Shabbir",
+                      name: "Saboor",
                       children: [
-                        { name: "Aasif" },
-                        { name: "Shaquib" },
-                        { name: "Sufiyan" },
+                        {
+                          name: "Suhail",
+                          children: [{ name: "Aasif" }, { name: "Shahid" }],
+                        },
                       ],
                     },
-                    { name: "Shafique" },
-                  ],
-                },
-              ],
-            },
-            {
-              name: "Khalil",
-              children: [{ name: "Haroon" }, { name: "Mannan" }],
-            },
-            {
-              name: "Babullah",
-              children: [
-                { name: "Abdullah", children: [{ name: "Shamsuddin" }] },
-                { name: "Tahir", children: [{ name: "Aaftab" }] },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Habib",
-          children: [
-            {
-              name: "Abdul Gaffar",
-              children: [
-                {
-                  name: "Abul Hasan",
-                  children: [{ name: "Tarique" }, { name: "Asfaque" }],
-                },
-                {
-                  name: "Barkat",
-                  children: [{ name: "Qutubullah" }, { name: "Wasiullah" }],
-                },
-              ],
-            },
-            {
-              name: "Farooque",
-              children: [
-                {
-                  name: "Hamiuddin",
-                  children: [{ name: "Qutubuddin" }, { name: "Karimuddin" }],
-                },
-                {
-                  name: "Bauddin",
-                  children: [
-                    { name: "Azizuddin" },
-                    { name: "Sirajuddin" },
-                    { name: "Riyajuddin" },
-                    { name: "Allauddin" },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Raheem Baks",
-          children: [
-            {
-              name: "Mohd Khan",
-              children: [
-                { name: "Aziz" },
-                {
-                  name: "Hasnain",
-                  children: [
-                    { name: "Faisal" },
-                    { name: "Abujar" },
-                    { name: "Sageer" },
-                    { name: "Zakir" },
-                    { name: "Ahanullah" },
+                    {
+                      name: "Mabood",
+                      children: [{ name: "Tufail" }, { name: "Irhad" }],
+                    },
+                    { name: "Wadood" },
+                    { name: "Daud" },
                   ],
                 },
                 {
-                  name: "Jaleel",
-                  children: [
-                    { name: "Arif" },
-                    { name: "Aftab" },
-                    { name: "Khursheed" },
-                    { name: "Qamar" },
-                  ],
-                },
-                {
-                  name: "Abdurraheem",
-                  children: [{ name: "Jamal" }, { name: "Fahad" }],
-                },
-              ],
-            },
-            {
-              name: "Safiullah",
-              children: [
-                {
-                  name: "Lateef",
-                  children: [
-                    { name: "Azhar" },
-                    { name: "Athar" },
-                    { name: "Zaki" },
-                  ],
-                },
-                { name: "Khalil" },
-                { name: "Anwar" },
-                { name: "Oushaf" },
-                { name: "Mustaque" },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Abdurrahman",
-          children: [
-            {
-              name: "Haneef",
-              children: [{ name: "Obaidullah", children: [{ name: "Ravi" }] }],
-            },
-            {
-              name: "Ibrahim",
-              children: [
-                { name: "Misbahuddin" },
-                { name: "Salahuddin" },
-                { name: "Hisamuddin" },
-              ],
-            },
-            {
-              name: "Ishaque",
-              children: [
-                { name: "Rafiuddin" },
-                { name: "Fakhruddin" },
-                { name: "Kamruddin" },
-                { name: "Ziauddin" },
-                { name: "Ajaz" },
-              ],
-            },
-            { name: "Yahya", children: [{ name: "Mahiuddin" }] },
-          ],
-        },
-      ],
-    },
-    {
-      name: "Dahu",
-      children: [
-        {
-          name: "Dost Mohd",
-          children: [
-            {
-              name: "Abuharera",
-              children: [
-                {
-                  name: "Saboor",
+                  name: "Farooque",
                   children: [
                     {
-                      name: "Suhail",
-                      children: [{ name: "Aasif" }, { name: "Shahid" }],
+                      name: "Baitullah",
+                      children: [{ name: "Asfaque" }, { name: "Shadab" }],
+                    },
+                    {
+                      name: "Rahmatullah",
+                      children: [
+                        { name: "Parvez" },
+                        { name: "Javed" },
+                        { name: "Sageer" },
+                        { name: "Naseer" },
+                        { name: "Shahzad" },
+                      ],
                     },
                   ],
                 },
                 {
-                  name: "Mabood",
-                  children: [{ name: "Tufail" }, { name: "Irhad" }],
-                },
-                { name: "Wadood" },
-                { name: "Daud" },
-              ],
-            },
-            {
-              name: "Farooque",
-              children: [
-                {
-                  name: "Baitullah",
-                  children: [{ name: "Asfaque" }, { name: "Shadab" }],
-                },
-                {
-                  name: "Rahmatullah",
+                  name: "Abusai",
                   children: [
-                    { name: "Parvez" },
-                    { name: "Javed" },
-                    { name: "Sageer" },
-                    { name: "Naseer" },
-                    { name: "Shahzad" },
+                    {
+                      name: "AbidAli",
+                      children: [{ name: "Dilshad" }, { name: "Zishan" }],
+                    },
+                    { name: "Mustaque" },
+                    { name: "Aurangzeb", children: [{ name: "Hanzala" }] },
+                    {
+                      name: "Fakhar",
+                      children: [{ name: "Sadan" }, { name: "Hamdan" }],
+                    },
                   ],
                 },
-              ],
-            },
-            {
-              name: "Abusai",
-              children: [
-                { name: "AbidAli",children:[{name:"Dilshad"},{name:"Zishan"}] },
-                { name: "Mustaque" },
-                { name: "Aurangzeb",children:[{name:"Hanzala"}]},
-                { name: "Fakhar",children:[{name:"Sadan"},{name:"Hamdan"}]},
-              ],
-            },
-            {
-              name: "Amrullah",
-              children: [
-                { name: "Asdullah" },
-                { name: "Abdullah" },
-                { name: "Shad" },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Abdul Jabbar",
-          children: [
-            {
-              name: "Mohd Iliyas",
-              children: [
-                { name: "Afzal",children:[{name:"Fauzan"},{name:"Bilal"},{name:"Hamza"}]},
-                { name: "Athar" },
-                { name: "Khalid" },
-              ],
-            },
-            {
-              name: "Mohd Vais",
-              children: [
-                { name: "Kalimullah", children: [{ name: "Mohd Umar" }] },
-                { name: "SAIFULLAH" },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Abdul Sattar",
-          children: [
-            {
-              name: "NarulHaq",
-              children: [
                 {
-                  name: "Tabarak",
+                  name: "Amrullah",
                   children: [
-                    { name: "Feroz" },
-                    { name: "Faiyaz" },
-                    { name: "Mohsin" },
-                    { name: "Mohsab" },
+                    { name: "Asdullah" },
+                    { name: "Abdullah" },
                     { name: "Shad" },
-                    { name: "Dozana" },
+                  ],
+                },
+              ],
+            },
+            {
+              name: "Abdul Jabbar",
+              children: [
+                {
+                  name: "Mohd Iliyas",
+                  children: [
+                    {
+                      name: "Afzal",
+                      children: [
+                        { name: "Fauzan" },
+                        { name: "Bilal" },
+                        { name: "Hamza" },
+                      ],
+                    },
+                    { name: "Athar" },
+                    { name: "Khalid" },
                   ],
                 },
                 {
-                  name: "Hasim",
-                  children: [{ name: "Danish" }, { name: "Aasif" }],
+                  name: "Mohd Vais",
+                  children: [
+                    { name: "Kalimullah", children: [{ name: "Mohd Umar" }] },
+                    { name: "SAIFULLAH" },
+                  ],
                 },
-                { name: "Obaidurrahman", children: [{ name: "Umair" }] },
               ],
             },
             {
-              name: "Zubair",
+              name: "Abdul Sattar",
               children: [
-                { name: "Istiyaque" },
-                { name: "Sajjad" },
-                { name: "Munauwar" },
-                { name: "Mahiuddin",children:[{name:"Arman"}]},
-              ],
-            },
-            {
-              name: "Mubarak",
-              children: [
-                { name: "Azmat" },
-                { name: "Naseem",children:[{name:"Tanvir"}]},
-                { name: "Shameem", children: [{ name: "ShahAlam" }] },
-                { name: "Tabrez" },
-                { name: "Riyaz",children:[{name:"Sarfaraz"}] },
-                { name: "Aftab" },
+                {
+                  name: "NarulHaq",
+                  children: [
+                    {
+                      name: "Tabarak",
+                      children: [
+                        { name: "Feroz" },
+                        { name: "Faiyaz" },
+                        { name: "Mohsin" },
+                        { name: "Mohsab" },
+                        { name: "Shad" },
+                        { name: "Dozana" },
+                      ],
+                    },
+                    {
+                      name: "Hasim",
+                      children: [{ name: "Danish" }, { name: "Aasif" }],
+                    },
+                    { name: "Obaidurrahman", children: [{ name: "Umair" }] },
+                  ],
+                },
+                {
+                  name: "Zubair",
+                  children: [
+                    { name: "Istiyaque" },
+                    { name: "Sajjad" },
+                    { name: "Munauwar" },
+                    { name: "Mahiuddin", children: [{ name: "Arman" }] },
+                  ],
+                },
+                {
+                  name: "Mubarak",
+                  children: [
+                    { name: "Azmat" },
+                    { name: "Naseem", children: [{ name: "Tanvir" }] },
+                    { name: "Shameem", children: [{ name: "ShahAlam" }] },
+                    { name: "Tabrez" },
+                    { name: "Riyaz", children: [{ name: "Sarfaraz" }] },
+                    { name: "Aftab" },
+                  ],
+                },
               ],
             },
           ],
         },
-      ],
-    },
-    {
-      name: "Noor Mohd",
-      children: [
         {
-          name: "AbdulKareem",
+          name: "Noor Mohd",
           children: [
             {
-              name: "Samad",
+              name: "AbdulKareem",
               children: [
                 {
-                  name: "Nazeer",
+                  name: "Samad",
                   children: [
-                    { name: "Junaid" },
-                    { name: "Uzair" },
-                    { name: "Anas" },
-                  ],
-                },
-                { name: "Mabood" },
-              ],
-            },
-            {
-              name: "Majeed",
-              children: [
-                {
-                  name: "Jamal",
-                  children: [
-                    { name: "Sarfuddin" },
-                    { name: "Hisham" },
-                    { name: "Mahiuddin" },
+                    {
+                      name: "Nazeer",
+                      children: [
+                        { name: "Junaid" },
+                        { name: "Uzair" },
+                        { name: "Anas" },
+                      ],
+                    },
+                    { name: "Mabood" },
                   ],
                 },
                 {
-                  name: "AliAhmad",
+                  name: "Majeed",
                   children: [
-                    { name: "Nafees" },
-                    { name: "Anees" },
-                    { name: "Rayees" },
+                    {
+                      name: "Jameel",
+                      children: [
+                        { name: "Sarfuddin" },
+                        { name: "Hisham" },
+                        { name: "Mahiuddin" },
+                      ],
+                    },
+                    {
+                      name: "AliAhmad",
+                      children: [
+                        { name: "Nafees" },
+                        { name: "Anees" },
+                        { name: "Rayees" },
+                      ],
+                    },
                   ],
                 },
               ],
@@ -577,7 +701,8 @@ const lineage = {name:"SHAHADAT",children:[{
         },
       ],
     },
+    { name: "AllahBaqs" },
   ],
-},{name:"AllahBaqs"}]};
+};
 
 export default lineage;
